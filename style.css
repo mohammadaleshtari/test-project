@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Dirooz-FD-WOL;
+  src: url(./font/Farsi-Digits-Without-Latin/Dirooz-FD-WOL.eot);
+}
+@font-face {
+  font-family: IranNastaliq;
+  src: url(./font/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf);
+}
+.first {
+  background-color: #09523a;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.search {
+  width: 20px;
+  height: 20px;
+}
+.slider-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.font {
+  font-family: IranNastaliq;
+}
+.nav {
+  font-size: 17px;
+}
+.menu-hover:hover {
+  color: rgb(189, 187, 187) !important;
+}
+.scale {
+  transition: transform 0.5s ease;
+  width: 300px;
+}
+.scale:hover {
+  transform: scale(1.2);
+}
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.zoom-container img {
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.zoom-container:hover img {
+  transform: scale(1.1);
+}
+.text-size {
+  font-size: 18px;
+  color: rgb(208, 211, 214);
+  padding: 20px;
+}
+section.second {
+  font-family: Dirooz-FD-WOL;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+
+.mega-menu {
+  font-family: Dirooz-FD-WOL;
+  width: 800px;
+  height: 500px;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  background-color: #0e835c !important;
+}
+
+.dropdown-item:hover {
+  background-color: #0e835c;
+  color: #4e5153;
+}
+.news {
+  height: 20px;
+  width: 100%;
+  background-color: rgb(230, 226, 226);
+}
+.text-size1 {
+  font-size: 15px;
+  color: rgb(208, 211, 214);
+  padding: 12px;
+}

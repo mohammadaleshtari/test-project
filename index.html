@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite project</title>
+  <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/slider1.css">
+  <link rel="stylesheet" href="css/slider2.css">
+
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <section class="first h-25">
+        <nav>
+          <div class="d-flex justify-content-end">
+            <h1 class="text-white fs-3 mt-4 me-3 font">خبرگزاری پلیس</h1>
+            <div class="icon me-3 mt-2">
+              <img src="image/faraja.png" class="h-100 w-100" alt="" />
+            </div>
+          </div>
+          <ul class="nav d-flex justify-content-around fw-bold">
+            <li class="nav-item col-auto p-0">
+              <button class="nav-link "><img src="image/icons8-search-50 (1).png" class="search" alt="" /></button>
+            </li>
+            <li class="nav-item col-auto p-0">
+              <a href="#" class="nav-link text-white p-0 menu-hover">فیلم</a>
+            </li>
+            <li class="nav-item col-auto p-0 ">
+              <a href="#" class="nav-link text-white p-0 menu-hover">مشاوره و مددکاری</a>
+            </li>
+            <li class="nav-item col-auto p-0 ">
+              <a href="#" class="nav-link text-white p-0 menu-hover">درگاه پلیس های تخصصی</a>
+            </li>
+            <li class="nav-item dropdown col-auto p-0">
+              <a class="nav-link text-white p-0 menu-hover" href="#" id="provincesDropdown" role="button"
+                aria-expanded="false">
+                استان‌ها<span class="dropdown-toggle-icon" style="font-size: 10px; margin-left: 5px;">▼</span>
+              </a>
+              <div class="dropdown-menu mega-menu p-4" aria-labelledby="provincesDropdown">
+                <div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <ul class="list-unstyled ">
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان تهران</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان اصفهان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان فارس</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان خراسان رضوی</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان آذربایجان شرقی</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان مازندران</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان گیلان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان خوزستان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان کرمان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان البرز</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="list-unstyled">
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان آذربایجان غربی</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان کردستان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان همدان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان مرکزی</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان لرستان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان قزوین</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان زنجان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان اردبیل</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان قم</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان ایلام</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="list-unstyled">
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان بوشهر</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان کهگیلویه و بویراحمد</a>
+                        </li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان چهارمحال و بختیاری</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان خراسان شمالی</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان خراسان جنوبی</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان سمنان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان یزد</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان کرمانشاه</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان هرمزگان</a></li>
+                        <li class="mt-2"><a class="dropdown-item  text-white" href="#">استان سیستان و بلوچستان</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item col-auto p-0">
+              <a href="#" class="nav-link text-white p-0 menu-hover">باشگاه دانش آموزی خبرنگاران پلیس</a>
+            </li>
+            <li class="nav-item col-auto p-0">
+              <a href="#" class="nav-link text-white p-0 menu-hover">اجتماعی</a>
+            </li>
+            <li class="nav-item col-auto p-0 ">
+              <a href="#" class="nav-link text-white p-0 menu-hover">سخنگو</a>
+            </li>
+            <li class="nav-item col-auto p-0 ">
+              <a href="#" class="nav-link text-white p-0 menu-hover">فراجا</a>
+            </li>
+            <li class="nav-item col-auto p-0 ">
+              <a href="#" class="nav-link text-white p-0 menu-hover">صفحه اصلی</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="news">
+      </section>
+      <section class="second ms-4 me-4">
+        <div class="my-1">
+          <div class="row g-3 align-items-start">
+            <div class="col-md-3">
+              <video id="myVideo" class="w-100 rounded-1" height="150" controls>
+                <source src="./image/tizer_sistan_shohada.mp4" type="video/mp4">
+              </video>
+              <div class="swiper vertical-swiper shadow-lg">
+                <div class="swiper-wrapper vertical-wrapper">
+                  <div class="swiper-slide vertical-slide"><a href="#"><img src="image/photo_2025-04-23_08-40-33.jpg"
+                        alt="" /></a></div>
+                  <div class="swiper-slide vertical-slide"><a href="#"><img src="image/photo_2024-06-18_13-43-47.jpg"
+                        alt="" /></a></div>
+                </div>
+                <div class="swiper-pagination vertical-pagination"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="swiper main-slider shadow-lg">
+                <div class="swiper-wrapper main-slider-wrapper">
+                  <div class="swiper-slide main-slider-slide position-relative">
+                    <a href="#"><img src="image/1 (1).jpg" class="w-100" alt="" /></a>
+                    <p class="position-absolute bottom-0 text-center  fw-bold text-size">
+                      دیدار سردار رضایی با مدیر کل امنیت سواحل و مرزهای دولت قطر
+                    </p>
+                  </div>
+                  <div class="swiper-slide main-slider-slide position-relative">
+                    <a href="#"><img src="image/photo_2025-05-04_11-51-57.jpg" class="w-100" alt="" /></a>
+                    <p class="position-absolute bottom-0 text-center  fw-bold text-size">
+                      مجموعه انتظامي، بالاترين ميزان رضايت مندي را در بين مردم دارد
+                    </p>
+                  </div>
+                  <div class="swiper-slide main-slider-slide position-relative">
+                    <a href="#"><img src="image/IMG_0937.jpg" class="w-100" alt="" /></a>
+                    <p class="position-absolute bottom-0 text-center  fw-bold text-size">
+                      امضاء تفاهم نامه مرزي ميان کشور ايران و قطر / مبارزه با جرايم مرزي در دستور کار مرزباني دو کشور
+                      گروه فراجا – فرمانده مرزباني فراجا با بيان امضاء تفاهم نامه مرزي ميان کشور ايران و قطر، گفت:
+                    </p>
+                  </div>
+                  <div class="swiper-slide main-slider-slide position-relative">
+                    <a href="#"><img src="image/photoo.jpg" class="w-100" alt="" /></a>
+                    <p class="position-absolute bottom-0  text-center  fw-bold text-size">
+                      مجموعه انتظامي، بالاترين ميزان رضايت مندي را در بين مردم دارد
+                    </p>
+                  </div>
+                  <div class="swiper-slide main-slider-slide position-relative">
+                    <a href="#"><img src="image/phpo.jpg" class="w-100" alt="" /></a>
+                    <p class="position-absolute bottom-0 text-center fw-bold  text-size">
+                      امضاء تفاهم نامه مرزي ميان کشور ايران و قطر / مبارزه با جرايم مرزي در دستور کار مرزباني دو کشور
+                      گروه فراجا – فرمانده مرزباني فراجا با بيان امضاء </p>
+                  </div>
+                </div>
+                <div class="swiper-button-next main-slider-next next"></div>
+                <div class="swiper-button-prev main-slider-prev prev"></div>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex flex-column gap-2">
+              <div class="zoom-container position-relative">
+                <a href="#">
+                  <img src="image/1.jpg" class="w-100 rounded-1 shadow-lg" alt="" />
+                </a>
+                <p class="position-absolute bottom-0 text-size1">فراجا
+                  تقویت همکاری های پلیسی ایران و اتیوپی
+                  گروه فراجــــا- فرمانده کل انتظامی جمهوری اسلامی</p>
+              </div>
+              <div class="zoom-container position-relative">
+                <a href="#">
+                  <img src="image/photo_2025-05-03_20-16-22.jpg" class="w-100 rounded-1 shadow-lg" alt="" />
+                </a>
+                <p class="position-absolute bottom-0  text-size1">گروه استان‌ها- گيلان- جانشين فرمانده کل انتظامي کشور
+                  اي
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="custom-slider-wrapper ms-4 me-4">
+        <div class="swiper custom-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani (1).png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani (2).png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani (3).png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani.png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/NAJA.png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani (3).png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani (3).png" class="custom-slide-img" alt="" /></a>
+            </div>
+            <div class="swiper-slide custom-slide">
+              <a href="#"><img src="image/Marzbani.png" class="custom-slide-img" alt="" /></a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </header>
+    <script src="bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="js/slider.js"></script>
+    <script type="module" src="js/slider1.js"></script>
+    <script type="module" src="js/slider2.js"></script>
+  </div>
+</body>
+
+</html>

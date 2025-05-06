@@ -1,0 +1,22 @@
+.vertical-swiper{
+    height: 270px;
+    border-radius: 5px;
+  }
+  .vertical-slide{
+    width: 100%;
+    height: 270px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-slide img{
+    transition: transform 0.5s ease;
+    width: 300px; /* اندازه دلخواه */
+  }
+  
+  .swiper-slide img:hover {
+    transform: scale(1.2); /* 20% بزرگ‌تر */
+  }

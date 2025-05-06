@@ -1,0 +1,38 @@
+.main-slider {
+  height: 420px;
+  border-radius: 5px;
+  width: 100%;
+}
+.main-slider-wrapper{
+  height: 420px;
+  width: 100%;
+}
+.main-slider-slide {
+  width: 25%;
+  height: 100%;
+}
+
+.main-slider-slide > a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  transition: transform 0.5s ease;
+  width: 300px;
+}
+.next{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  background-color: darkgray;
+
+}
+.prev{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  background-color: darkgray;
+}
+
+
+.main-slider-slide > a > img:hover {
+  transform: scale(1.2);
+}

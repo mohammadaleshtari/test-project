@@ -1,0 +1,23 @@
+.custom-slider {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(45deg, #35167e, #01075c);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 50px;
+}
+.swiper-wrapper {
+  height: 200px;
+  width: 100%;
+}
+.custom-slide {
+  width: 15%;
+  height: 100%;
+}
+.custom-slide > a > img {
+  display: block;
+  width: 40%;
+  height: 50%;
+  object-fit: fill;
+}

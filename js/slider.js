@@ -1,4 +1,4 @@
-export function initSlider() {
+
   var swiper = new Swiper(".custom-slider", {
     slidesPerView: 5,
     spaceBetween: 25,
@@ -13,4 +13,4 @@ export function initSlider() {
       disableOnInteraction: false,
     },
   });
-}
+

@@ -1,5 +1,4 @@
 
-export function initSlider2() {
   var swiper2 = new Swiper(".vertical-swiper", {
     direction: "vertical",
     pagination: {
@@ -11,6 +10,6 @@ export function initSlider2() {
       disableOnInteraction: false,
     },
   });
-}
+
 
   

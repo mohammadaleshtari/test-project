@@ -1,6 +1,4 @@
 
-
-export function initSlider1() {
   const swiper1 = new Swiper(".main-slider", {
     navigation: {
       nextEl: ".main-slider-next",
@@ -11,6 +9,6 @@ export function initSlider1() {
       disableOnInteraction: false,
     },
   });
-}
+
 
 
